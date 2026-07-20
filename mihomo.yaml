@@ -70,8 +70,7 @@ proxies:
   - {name: "سرویس رایگان نوا 172.66.236.237:443 [VLESS]", server: 172.66.236.237, port: 443, type: vless, uuid: 152a6c10-b31b-425e-8653-7fa03a0d8691, tls: true, skip-cert-verify: false, servername: nova-mango-core-b98c.nova-a821d3.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova-mango-core-b98c.nova-a821d3.workers.dev}}}
   - {name: "سرویس رایگان نوا 104.22.240.207:443 [VLESS]", server: 104.22.240.207, port: 443, type: vless, uuid: 152a6c10-b31b-425e-8653-7fa03a0d8691, tls: true, skip-cert-verify: false, servername: nova-mango-core-b98c.nova-a821d3.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova-mango-core-b98c.nova-a821d3.workers.dev}}}
   - {name: "سرویس رایگان نوا 172.64.25.0:443 [VLESS]", server: 172.64.25.0, port: 443, type: vless, uuid: 152a6c10-b31b-425e-8653-7fa03a0d8691, tls: true, skip-cert-verify: false, servername: nova-mango-core-b98c.nova-a821d3.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova-mango-core-b98c.nova-a821d3.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.18.0.0:443 [VLESS]", server: 104.18.0.0, port: 443, type: vless, uuid: 152a6c10-b31b-425e-8653-7fa03a0d8691, tls: true, skip-cert-verify: false, servername: nova-mango-core-b98c.nova-a821d3.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova-mango-core-b98c.nova-a821d3.workers.dev}}}
-  - {name: "سرویس رایگان نوا 104.18.1.1:2053 [VLESS]", server: 104.18.1.1, port: 2053, type: vless, uuid: 152a6c10-b31b-425e-8653-7fa03a0d8691, tls: true, skip-cert-verify: false, servername: nova-mango-core-b98c.nova-a821d3.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova-mango-core-b98c.nova-a821d3.workers.dev}}}
+  - {name: "سرویس رایگان نوا 104.26.179.76:443 [VLESS]", server: 104.26.179.76, port: 443, type: vless, uuid: 152a6c10-b31b-425e-8653-7fa03a0d8691, tls: true, skip-cert-verify: false, servername: nova-mango-core-b98c.nova-a821d3.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: nova-mango-core-b98c.nova-a821d3.workers.dev}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -109,8 +108,7 @@ proxy-groups:
       - سرویس رایگان نوا 172.66.236.237:443 [VLESS]
       - سرویس رایگان نوا 104.22.240.207:443 [VLESS]
       - سرویس رایگان نوا 172.64.25.0:443 [VLESS]
-      - سرویس رایگان نوا 104.18.0.0:443 [VLESS]
-      - سرویس رایگان نوا 104.18.1.1:2053 [VLESS]
+      - سرویس رایگان نوا 104.26.179.76:443 [VLESS]
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -144,8 +142,7 @@ proxy-groups:
       - سرویس رایگان نوا 172.66.236.237:443 [VLESS]
       - سرویس رایگان نوا 104.22.240.207:443 [VLESS]
       - سرویس رایگان نوا 172.64.25.0:443 [VLESS]
-      - سرویس رایگان نوا 104.18.0.0:443 [VLESS]
-      - سرویس رایگان نوا 104.18.1.1:2053 [VLESS]
+      - سرویس رایگان نوا 104.26.179.76:443 [VLESS]
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -178,8 +175,7 @@ proxy-groups:
       - سرویس رایگان نوا 172.66.236.237:443 [VLESS]
       - سرویس رایگان نوا 104.22.240.207:443 [VLESS]
       - سرویس رایگان نوا 172.64.25.0:443 [VLESS]
-      - سرویس رایگان نوا 104.18.0.0:443 [VLESS]
-      - سرویس رایگان نوا 104.18.1.1:2053 [VLESS]
+      - سرویس رایگان نوا 104.26.179.76:443 [VLESS]
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -213,8 +209,7 @@ proxy-groups:
       - سرویس رایگان نوا 172.66.236.237:443 [VLESS]
       - سرویس رایگان نوا 104.22.240.207:443 [VLESS]
       - سرویس رایگان نوا 172.64.25.0:443 [VLESS]
-      - سرویس رایگان نوا 104.18.0.0:443 [VLESS]
-      - سرویس رایگان نوا 104.18.1.1:2053 [VLESS]
+      - سرویس رایگان نوا 104.26.179.76:443 [VLESS]
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -267,8 +262,7 @@ proxy-groups:
       - سرویس رایگان نوا 172.66.236.237:443 [VLESS]
       - سرویس رایگان نوا 104.22.240.207:443 [VLESS]
       - سرویس رایگان نوا 172.64.25.0:443 [VLESS]
-      - سرویس رایگان نوا 104.18.0.0:443 [VLESS]
-      - سرویس رایگان نوا 104.18.1.1:2053 [VLESS]
+      - سرویس رایگان نوا 104.26.179.76:443 [VLESS]
   - name: ☁️ CloudFlareCDN
     type: select
     proxies:
@@ -307,8 +301,7 @@ proxy-groups:
       - سرویس رایگان نوا 172.66.236.237:443 [VLESS]
       - سرویس رایگان نوا 104.22.240.207:443 [VLESS]
       - سرویس رایگان نوا 172.64.25.0:443 [VLESS]
-      - سرویس رایگان نوا 104.18.0.0:443 [VLESS]
-      - سرویس رایگان نوا 104.18.1.1:2053 [VLESS]
+      - سرویس رایگان نوا 104.26.179.76:443 [VLESS]
 rules:
 # PHISHING BLOCK RULES
   - GEOSITE,category-phishing,REJECT
